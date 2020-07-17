@@ -1,4 +1,4 @@
-Unbound - Docker DNS over TLS (DoT) Forwarder
+Docker - Unbound DNS over TLS (DoT) Forwarder
 
 - Base: alpine:latest with unbound from apk
 - Small image < 14M.
