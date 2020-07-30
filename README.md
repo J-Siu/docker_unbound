@@ -103,6 +103,8 @@ forward-zone:
   - unbound 1.10.1-r0
 - 1.10.1-r1
   - Auto update to 1.10.1-r1
+- 1.11.0-r0
+  - Auto update to 1.11.0-r0
 <!--CHANGE-LOG-END-->
 
 ### License
