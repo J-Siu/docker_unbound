@@ -91,7 +91,7 @@ forward-zone:
 
 ### Repository
 
-- [docker_compose](https://github.com/J-Siu/docker_unbound)
+- [docker_unbound](https://github.com/J-Siu/docker_unbound)
 
 ### Contributors
 
