@@ -109,6 +109,8 @@ forward-zone:
   - Auto update to 1.12.0-r0
 - 1.13.0-r3
   - Auto update to 1.13.0-r3
+- 1.13.1-r0
+  - Auto update to 1.13.1-r0
 <!--CHANGE-LOG-END-->
 
 ### License
