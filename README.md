@@ -136,6 +136,8 @@ forward-zone:
   - Auto update to 1.15.0-r0
 - 1.15.0-r0-p1
   - Add docker push github workflow
+- 1.16.1-r0
+  - Auto update to 1.16.1-r0
 <!--CHANGE-LOG-END-->
 
 ### License
