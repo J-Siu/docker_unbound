@@ -140,6 +140,8 @@ forward-zone:
   - Auto update to 1.16.1-r0
 - 1.17.1-r0
   - Auto update to 1.17.1-r0
+- 1.17.1-r2
+  - Auto update to 1.17.1-r2
 <!--CHANGE-LOG-END-->
 
 ### License
