@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-LABEL version="1.23.1-r1-p1"
+LABEL version="1.24.0-r0"
 LABEL maintainers="[John Sing Dao Siu](https://github.com/J-Siu)"
 LABEL name="unbound"
 LABEL usage="https://github.com/J-Siu/docker_unbound/blob/master/README.md"

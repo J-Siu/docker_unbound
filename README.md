@@ -150,6 +150,8 @@ forward-zone:
   - Auto update to 1.23.1-r1
 - 1.23.1-r1-p1
   - Merge pull request #2 from DFXLuna/master - Install openssl
+- 1.24.0-r0
+  - Auto update to 1.24.0-r0
 <!--CHANGE-LOG-END-->
 
 ### License
