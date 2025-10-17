@@ -1,14 +1,5 @@
 # Docker - Unbound DNS over TLS (DoT) Forwarder [![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=HZF49NM9D35SJ&no_recurring=0&currency_code=CAD)
 
-Base: alpine:latest with unbound from apk
-
-Small image < 14M.
-
-Default config use Google and Cloudflare as DoT forwarder
-
-### Table Of Content
-<!-- TOC -->
-
 - [Build](#build)
 - [Usage](#usage)
   - [Standard Usage](#standard-usage)
@@ -16,10 +7,9 @@ Default config use Google and Cloudflare as DoT forwarder
 - [/etc/unbound/unbound.conf](#etcunboundunboundconf)
 - [Repository](#repository)
 - [Contributors](#contributors)
-- [Change Log](#change-log)
 - [License](#license)
 
-<!-- /TOC -->
+<!--more-->
 
 ### Build
 
@@ -63,6 +53,8 @@ docker run -d \
 ```
 
 ### /etc/unbound/unbound.conf
+
+> Default config use Google and Cloudflare as DoT forwarder
 
 ```ini
 server:
@@ -113,48 +105,6 @@ forward-zone:
 ### Contributors
 
 - [John Sing Dao Siu](https://github.com/J-Siu)
-
-### Change Log
-
-- 1.10.1-r0
-  - unbound 1.10.1-r0
-- 1.10.1-r1
-  - Auto update to 1.10.1-r1
-- 1.11.0-r0
-  - Auto update to 1.11.0-r0
-- 1.12.0-r0
-  - Auto update to 1.12.0-r0
-- 1.13.0-r3
-  - Auto update to 1.13.0-r3
-- 1.13.1-r0
-  - Auto update to 1.13.1-r0
-- 1.13.1-r1
-  - Auto update to 1.13.1-r1
-- 1.13.1-r2
-  - Auto update to 1.13.1-r2
-- 1.15.0-r0
-  - Auto update to 1.15.0-r0
-- 1.15.0-r0-p1
-  - Add docker push github workflow
-- 1.16.1-r0
-  - Auto update to 1.16.1-r0
-- 1.17.1-r0
-  - Auto update to 1.17.1-r0
-- 1.17.1-r2
-  - Auto update to 1.17.1-r2
-- 1.17.1-r3
-  - Auto update to 1.17.1-r3
-- 1.21.0-r0
-  - Auto update to 1.21.0-r0
-- 1.23.1-r1
-  - Auto update to 1.23.1-r1
-- 1.23.1-r1-p1
-  - Merge pull request #2 from DFXLuna/master - Install openssl
-- 1.24.0-r0
-  - Auto update to 1.24.0-r0
-- 1.24.0-r0-p0
-  - Fix Github build error
-<!--CHANGE-LOG-END-->
 
 ### License
 
