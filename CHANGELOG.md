@@ -36,3 +36,5 @@
   - Auto update to 1.24.0-r0
 - 1.24.0-r0-p0
   - Fix Github build error
+- 1.24.1-r0
+  - Auto update to 1.24.1-r0
