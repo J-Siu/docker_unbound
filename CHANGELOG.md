@@ -38,3 +38,5 @@
   - Fix Github build error
 - 1.24.1-r0
   - Auto update to 1.24.1-r0
+- 1.24.2-r0
+  - Auto update to 1.24.2-r0
