@@ -42,3 +42,5 @@
   - Auto update to 1.24.2-r0
 - 1.24.2-r1
   - Auto update to 1.24.2-r1
+- 1.25.0-r0
+  - Auto update to 1.25.0-r0
