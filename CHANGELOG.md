@@ -52,3 +52,5 @@
   - Auto update to 1.26.0-r0
 - 1.26.1-r0
   - Auto update to 1.26.1-r0
+- 1.26.2-r0
+  - Auto update to 1.26.2-r0
