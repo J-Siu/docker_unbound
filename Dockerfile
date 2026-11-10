@@ -1,15 +1,15 @@
 FROM alpine:edge
-ARG APP="unbound"
+ARG PKG="unbound"
 ARG VER="1.26.2-r0"
 ARG USR="https://github.com/J-Siu"
 LABEL version=${VER}
 LABEL maintainers="[John Sing Dao Siu](${USR})"
-LABEL name=${APP}
-LABEL usage="${USR}/docker_${APP}/blob/master/README.md"
+LABEL name=${PKG}
+LABEL usage="${USR}/docker_${PKG}/blob/master/README.md"
 LABEL description="Docker - Unbound DNS over TLS (DoT) Forwarder"
 
 RUN apk --no-cache add \
-${APP}=${VER} \
+${PKG}=${VER} \
 ca-certificates \
 ca-certificates-bundle \
 tzdata \
