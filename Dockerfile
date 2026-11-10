@@ -1,12 +1,20 @@
 FROM alpine:edge
-ARG VERSION="1.26.2-r0"
-LABEL version=${VERSION}
-LABEL maintainers="[John Sing Dao Siu](https://github.com/J-Siu)"
-LABEL name="unbound"
-LABEL usage="https://github.com/J-Siu/docker_unbound/blob/master/README.md"
+ARG APP="unbound"
+ARG VER="1.26.2-r0"
+ARG USR="https://github.com/J-Siu"
+LABEL version=${VER}
+LABEL maintainers="[John Sing Dao Siu](${USR})"
+LABEL name=${APP}
+LABEL usage="${USR}/docker_${APP}/blob/master/README.md"
 LABEL description="Docker - Unbound DNS over TLS (DoT) Forwarder"
 
-RUN apk --no-cache add ca-certificates ca-certificates-bundle tzdata openssl unbound=1.26.2-r0
+RUN apk --no-cache add \
+${APP}=${VER} \
+ca-certificates \
+ca-certificates-bundle \
+tzdata \
+openssl
 COPY unbound.conf /etc/unbound/
+
 EXPOSE 53
 CMD ["unbound","-d"]
